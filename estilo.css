@@ -1,0 +1,67 @@
+body{
+  background: linear-gradient(to top,#113F67,#34699A,#58A0C8);
+   font-family:"Exo 2",sans-serif ;
+  font-weight: 400;
+  
+}
+
+#principal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+  text-align: center;
+align-self: center;
+ height: 100vh;
+}
+#titulo{
+  font-size: 45px;
+   }
+
+section{
+  
+  margin: 10px;
+  width: 600px;
+  align-self: center;
+  height: 100vh;
+}
+.Psection{
+  background: linear-gradient(to top , #e9e3df,#D7D7D7,#EAEFEF);
+  border-radius: 10px;
+  box-shadow: 2px 1px 5px black;
+  color:#312d2b ;
+
+}
+
+button{
+  margin: 2px;
+  width: 100px;
+  align-self: center;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px black;
+  background: #fc9964;
+  font-size: 18px;
+   font-family:"Exo 2",sans-serif ;
+  font-weight: 700;
+}
+
+button:hover{
+  background: #E9E3DF;
+  box-shadow: 3px 3px 3px black;
+  padding: 2px;
+}
+
+ 
+
+
+
+
+@media (max-width: 650px) {
+  section{
+  
+  margin: 10px;
+  width: 450px;
+  align-self: center;
+  height: 100vh;
+}
+}

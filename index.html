@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+  <title>Tabuada</title>
+</head>
+<body>
+
+<div id="principal"> 
+
+  <h1 id="titulo">Tabuada</h1>
+
+<section class="Psection"> 
+
+  
+ 
+  <h2>
+    digite um número para fazer a tabuada:
+</h2>
+<input type="number" name="" id="numInicial">
+<h2>
+  digite o ultimo número:
+</h2>
+<input type="number" name="" id="numFinal">
+</section>
+<section class="Psection"> 
+<h2>
+  escolha a operação:
+</h2>
+  <h3>
+    Soma (+)
+   <input type="radio" name="operador" id="soma">
+  </h3>
+
+  <h3>
+    Subtração (-)
+   <input type="radio" name="operador" id="subi">
+  </h3>
+
+  <h3>
+    Multiplicação (x)
+   <input type="radio" name="operador" id="mult">
+  </h3>
+
+  <h3>
+    Divisão (÷)
+    <input type="radio" name="operador" id="divi">  
+  </h3>
+  
+
+  
+
+  
+</section>
+<button onclick="tabuada()">Aplicar</button>
+  <button onclick="resetar()">Resetar</button>
+<section> 
+  <h1 id="resultado" class="Psection"></h1>
+ </section>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
